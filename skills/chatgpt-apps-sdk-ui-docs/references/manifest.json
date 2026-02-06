@@ -1,0 +1,162 @@
+[
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-alert--docs",
+    "file": "pages/components/alert.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-avatar--docs",
+    "file": "pages/components/avatar.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-avatargroup--docs",
+    "file": "pages/components/avatargroup.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-badge--docs",
+    "file": "pages/components/badge.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-button--docs",
+    "file": "pages/components/button.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-buttonlink--docs",
+    "file": "pages/components/buttonlink.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-checkbox--docs",
+    "file": "pages/components/checkbox.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-codeblock--docs",
+    "file": "pages/components/codeblock.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-copytooltip--docs",
+    "file": "pages/components/copytooltip.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-datepicker--docs",
+    "file": "pages/components/datepicker.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-daterangepicker--docs",
+    "file": "pages/components/daterangepicker.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-emptymessage--docs",
+    "file": "pages/components/emptymessage.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-indicators--docs",
+    "file": "pages/components/indicators.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-input--docs",
+    "file": "pages/components/input.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-markdown--docs",
+    "file": "pages/components/markdown.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-menu--docs",
+    "file": "pages/components/menu.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-popover--docs",
+    "file": "pages/components/popover.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-radiogroup--docs",
+    "file": "pages/components/radiogroup.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-segmentedcontrol--docs",
+    "file": "pages/components/segmentedcontrol.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-select--docs",
+    "file": "pages/components/select.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-selectcontrol--docs",
+    "file": "pages/components/selectcontrol.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-slider--docs",
+    "file": "pages/components/slider.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-switch--docs",
+    "file": "pages/components/switch.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-taginput--docs",
+    "file": "pages/components/taginput.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-textarea--docs",
+    "file": "pages/components/textarea.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-textlink--docs",
+    "file": "pages/components/textlink.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/components-tooltip--docs",
+    "file": "pages/components/tooltip.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/concepts-dark-mode--docs",
+    "file": "pages/concepts/dark-mode.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/concepts-responsive-design--docs",
+    "file": "pages/concepts/responsive-design.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/concepts-typography--docs",
+    "file": "pages/concepts/typography.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/foundations-colors--docs",
+    "file": "pages/foundations/colors.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/foundations-design-tokens--docs",
+    "file": "pages/foundations/design-tokens.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/foundations-icons--docs",
+    "file": "pages/foundations/icons.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/overview-installation--docs",
+    "file": "pages/overview/installation.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/overview-introduction--docs",
+    "file": "pages/overview/introduction.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/transitions-animate--docs",
+    "file": "pages/transitions/animate.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/transitions-animatelayout--docs",
+    "file": "pages/transitions/animatelayout.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/transitions-animatelayoutgroup--docs",
+    "file": "pages/transitions/animatelayoutgroup.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/transitions-slottransitiongroup--docs",
+    "file": "pages/transitions/slottransitiongroup.md"
+  },
+  {
+    "url": "https://openai.github.io/apps-sdk-ui/?path=/docs/transitions-transitiongroup--docs",
+    "file": "pages/transitions/transitiongroup.md"
+  }
+]
