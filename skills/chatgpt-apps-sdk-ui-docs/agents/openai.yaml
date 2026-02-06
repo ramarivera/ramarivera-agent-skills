@@ -1,7 +1,7 @@
 interface:
   display_name: "ChatGPT Apps SDK UI Docs"
   short_description: "Find Apps SDK UI component and token docs"
-  icon_small: "./assets/icon-small.png"
-  icon_large: "./assets/icon-large.svg"
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.png"
   brand_color: "#FF6A00"
   default_prompt: "Use $chatgpt-apps-sdk-ui-docs to locate the exact Apps SDK UI docs page, then answer with concise, accurate component guidance and prop details."

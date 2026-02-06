@@ -1,7 +1,7 @@
 interface:
   display_name: "ChatGPT Apps SDK Docs"
   short_description: "Quick reference for ChatGPT Apps SDK"
-  icon_small: "./assets/icon-small.png"
-  icon_large: "./assets/icon-large.svg"
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.png"
   brand_color: "#10A37F"
   default_prompt: "Use $chatgpt-apps-sdk-docs to answer a ChatGPT Apps SDK question."
