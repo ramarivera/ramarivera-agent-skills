@@ -18,6 +18,23 @@ Use this skill as a deterministic router over the local Apps SDK UI corpus in `r
 - Include caveats when content appears ambiguous or malformed.
 5. Cite the exact reference file paths used.
 
+## Scenario Triggers (MANDATORY)
+
+| User intent | Primary reference | Optional secondary reference |
+|---|---|---|
+| Component API/props question | `references/components/<component>.md` | `references/doc-map.md` |
+| Visual tokens/colors/icons | `references/foundations/design-tokens.md`, `references/foundations/colors.md`, or `references/foundations/icons.md` | `references/doc-map.md` |
+| Theming / dark mode / responsive / typography | `references/concepts/dark-mode.md`, `references/concepts/responsive-design.md`, or `references/concepts/typography.md` | `references/overview/introduction.md` |
+| Animation/transitions | `references/transitions/<topic>.md` | `references/doc-map.md` |
+| Setup / install | `references/overview/installation.md` | `references/overview/introduction.md` |
+
+## Do NOT Load (unless needed)
+
+- Do not load all component files for a single component question.
+- Do not load transition docs for non-animation questions.
+- Do not load foundations docs when the user asks only about one component prop.
+- Do not load overview docs when the request is strictly API-level and already scoped.
+
 ## Routing Map
 
 ### Project setup and orientation
@@ -95,3 +112,16 @@ rg -n "^## (Usage|Reference|Props)$" references/components/button.md
 - Preserve literal import paths from references when available.
 - Do not invent props or defaults; report only what is present in references.
 - If requested information is absent, say so and point to nearest related file.
+
+## NEVER Do
+
+- Never invent component props, defaults, or import paths.
+- Never summarize broadly when the user requested exact API details.
+- Never omit exact reference file paths when returning technical guidance.
+- Never pretend a section exists (`Usage`, `Reference`, `Props`) if it is not present in the file.
+
+## Fallback Rules
+
+- If a component file lacks `Usage`/`Reference`/`Props`, extract available headings and state what is missing.
+- If component name is ambiguous, resolve via `references/doc-map.md` first, then open one best-match component file.
+- If a requested detail is absent, explicitly say it is not documented in the loaded references and point to nearest related file.
