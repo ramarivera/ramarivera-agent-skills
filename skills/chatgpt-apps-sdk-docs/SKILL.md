@@ -11,7 +11,7 @@ Use this skill to answer Apps SDK questions quickly and consistently using the b
 
 ## Quick Workflow
 
-1. Identify the topic area (plan, build, UI, auth, state, deploy, submit, UX/UI, reference APIs).
+1. Identify the topic area (plan, build, UI, auth, state, deploy, submit, UX/UI, reference APIs, Cloudflare/runtime ops, or mcp-use workflow).
 2. Open the smallest matching file set in `references/` (usually one primary file, optionally one secondary file) and pull only the needed details.
 3. If the user asks for the latest changes or requests verification, check the official OpenAI docs before answering.
 
@@ -22,6 +22,8 @@ Use this skill to answer Apps SDK questions quickly and consistently using the b
 | Initial setup / local dev / connecting app | `references/quickstart.md` | `references/deploy.md` |
 | Tool/server implementation | `references/build-mcp-server.md` | `references/reference-window-openai.md` |
 | ChatGPT UI bridge / widget behavior | `references/build-chatgpt-ui.md` | `references/reference-window-openai.md` |
+| mcp-use widget scaffolding / React widget workflow | `references/mcp-use-chatgpt-app-builder.md` | `references/quickstart.md` |
+| Cloudflare Workers or transport-specific runtime/debug issues | `references/openai-apps-mcp-operational-playbook.md` | `references/troubleshooting.md` |
 | Auth / OAuth / account linking | `references/auth.md` | `references/security-privacy.md` |
 | State strategy questions | `references/state-management.md` | `references/planning.md` |
 | UX and UI guidance | `references/ux-ui-guidelines.md` | `references/optimize-metadata.md` |
@@ -32,6 +34,8 @@ Use this skill to answer Apps SDK questions quickly and consistently using the b
 - Do not load all reference files by default.
 - Do not load monetization docs unless checkout/pricing is part of the request.
 - Do not load submission/policy docs for pure implementation questions.
+- Do not load Cloudflare/runtime playbook unless the user is debugging hosting/runtime behavior.
+- Do not load mcp-use workflow notes unless the user asks about mcp-use, templates, or auto-registered widgets.
 
 ## NEVER Do
 
@@ -53,6 +57,7 @@ Use this skill to answer Apps SDK questions quickly and consistently using the b
 - `references/planning.md`: Use cases, tool design, component planning.
 - `references/build-mcp-server.md`: MCP server setup, resources, tools, metadata, CSP, annotations, file params, search/fetch.
 - `references/build-chatgpt-ui.md`: `window.openai` bridge, widget APIs, state, localization, bundling.
+- `references/mcp-use-chatgpt-app-builder.md`: mcp-use template workflow, widget folder conventions, `useWidget` lifecycle, dual-protocol metadata.
 - `references/auth.md`: OAuth 2.1 requirements, protected resource metadata, DCR, linking UI.
 - `references/state-management.md`: Authoritative vs UI vs durable state patterns.
 - `references/monetization.md`: External checkout vs Instant Checkout (beta), requestCheckout flow.
@@ -62,6 +67,7 @@ Use this skill to answer Apps SDK questions quickly and consistently using the b
 - `references/optimize-metadata.md`: Metadata tuning and golden prompts.
 - `references/app-submission-guidelines.md`: App submission requirements and policy highlights.
 - `references/reference-window-openai.md`: `window.openai` API and tool/resource metadata reference.
+- `references/openai-apps-mcp-operational-playbook.md`: Cloudflare + MCP operational checklist and high-frequency failure patterns.
 - `references/troubleshooting.md`: Common failure modes and fixes.
 
 ## Notes

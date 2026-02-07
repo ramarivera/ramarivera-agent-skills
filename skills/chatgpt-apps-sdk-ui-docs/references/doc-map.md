@@ -12,6 +12,7 @@ Use this file to route queries to specific references/*.md pages.
 - `concepts/dark-mode.md`
 - `concepts/responsive-design.md`
 - `concepts/typography.md`
+- `concepts/mcp-use-widget-runtime.md`
 
 ### foundations
 - `foundations/colors.md`

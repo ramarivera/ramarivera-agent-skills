@@ -25,6 +25,7 @@ Use this skill as a deterministic router over the local Apps SDK UI corpus in `r
 | Component API/props question | `references/components/<component>.md` | `references/doc-map.md` |
 | Visual tokens/colors/icons | `references/foundations/design-tokens.md`, `references/foundations/colors.md`, or `references/foundations/icons.md` | `references/doc-map.md` |
 | Theming / dark mode / responsive / typography | `references/concepts/dark-mode.md`, `references/concepts/responsive-design.md`, or `references/concepts/typography.md` | `references/overview/introduction.md` |
+| mcp-use widget runtime/lifecycle/state patterns | `references/concepts/mcp-use-widget-runtime.md` | `references/overview/introduction.md` |
 | Animation/transitions | `references/transitions/<topic>.md` | `references/doc-map.md` |
 | Setup / install | `references/overview/installation.md` | `references/overview/introduction.md` |
 
@@ -34,6 +35,7 @@ Use this skill as a deterministic router over the local Apps SDK UI corpus in `r
 - Do not load transition docs for non-animation questions.
 - Do not load foundations docs when the user asks only about one component prop.
 - Do not load overview docs when the request is strictly API-level and already scoped.
+- Do not load mcp-use runtime notes unless the user asks about framework lifecycle, pending-state behavior, or metadata mapping.
 
 ## Routing Map
 
@@ -45,6 +47,7 @@ Use this skill as a deterministic router over the local Apps SDK UI corpus in `r
 - Dark mode: `references/concepts/dark-mode.md`
 - Responsive design: `references/concepts/responsive-design.md`
 - Typography: `references/concepts/typography.md`
+- mcp-use runtime/lifecycle: `references/concepts/mcp-use-widget-runtime.md`
 
 ### Foundations
 - Colors: `references/foundations/colors.md`
